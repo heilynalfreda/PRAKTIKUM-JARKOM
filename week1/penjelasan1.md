@@ -11,7 +11,7 @@
    [Download Wireshark](https://www.wireshark.org/download.html)
 2. Selanjutnya, lakukan set up seperti tampilan di bawah ini
    ![Start Setup](../assets/image/setup_start)
-   Lakukan setup hingga finish
+   . Lakukan setup hingga finish!
    ![Finish](../assets/image/setup_finish.png)
 3. Wireshark berhasil di install!
 
@@ -19,6 +19,7 @@
 
 Saat menjalankan Wireshark, kita akan melihat tampilan awal seperti berikut.
 ![Halaman Awal](../assets/image/halaman_awal.png)
+
 Secara garis besar, berikut adalah bagian dari tampilan tersebut:
 
 1. Daftar Interface (Capture)
@@ -27,13 +28,13 @@ Secara garis besar, berikut adalah bagian dari tampilan tersebut:
    Kotak yang berada di atas daftar interface digunakan untuk menangkap data tertentu(misalnya dari alamat IP tertentu)
 3. Toolbar (Ikon di atas)
    Dereta ikon pada bagian kiri atas adalah kendali utama:
+   -Sirip hiu biru: untuk memulai menangkap paket data pada interface yang dipilih
+   -Kotak merah: untuk menghentikan proses penangkapan
+   -Petir hijau: untuk mengulang sesi penangkapan dari awal
 
-- Sirip hiu biru: untuk memulai menangkap paket data pada interface yang dipilih
-- Kotak merah: untuk menghentikan proses penangkapan
-- Petir hijau: untuk mengulang sesi penangkapan dari awal
-
-Selanjutnya, kita akan menangkap dan mengidentifikasi paket data dengan menekan 2 kali Wi-Fi pada daftar interface. Tampilannya akan seperti berikut
+Selanjutnya, kita akan menangkap dan mengidentifikasi paket data dengan menekan 2 kali Wi-Fi pada daftar interface. Tampilannya akan seperti berikut:
 ![wifi](../assets/image/tampilan_wifi.png)
+
 Antarmuka WIreshark memiliki lima komponen utama:
 
 1. **command line** adalah menu pull-down standar yang terletak di bagian atas jendela Wireshark.
