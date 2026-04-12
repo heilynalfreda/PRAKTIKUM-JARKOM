@@ -121,3 +121,7 @@
      Alamat IP 1: 172.67.152.120
      <br>
      Alamat IP 2: 104.21.74.8
+
+## Kesimpulan
+
+Praktikum ini membuktikan bahwa DNS bekerja di atas protokol UDP port 53 untuk menerjemahkan nama domain menjadi alamat IP secara cepat. Melalui analisis Wireshark, terlihat bahwa pesan query hanya berisi pertanyaan, sementara pesan response menyediakan jawaban berupa Record A (IP) atau CNAME (alias). Selain itu, penggunaan server DNS bisa bervariasi antara server lokal (gateway) maupun server eksternal/otoritatif. Terakhir, efisiensi jaringan terjaga karena adanya mekanisme DNS Caching, sehingga perangkat tidak perlu melakukan kueri ulang untuk domain yang sama dalam satu sesi akses.
